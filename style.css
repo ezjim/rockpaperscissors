@@ -1,0 +1,15 @@
+/* main {
+    margin: 0px;
+    background-size: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row; */
+
+    
+    }
+.pictureOne {
+    width:270px;
+    height:auto;
+    padding:1%;
+    float:left;
+}

@@ -1,22 +1,35 @@
-// IMPORT MODULES under test here:
+import { checkResults } from '../rps.js'
 // import example from '../src/example.js';
 
 const test = QUnit.test;
+QUnit.module('checkResults');
 
-test('time to test a function', function(assert) {
+test('sham beats ro', assert => {
     //Arrange
-    // Set up your parameters and expectations
+    const player = 'sham';
+    const cpu = 'ro';
+    const expected = 'win';
+    const result = checkResults(player, cpu);
 
     //Act 
-    // Call the function you're testing and set the result to a const
 
     //Assert
     // Make assertions about what is expected valid result
-    assert.equal(true, false);
+    assert.equal(result, expected);
 });
 
+test('ro beats bo', assert => {
+    const player = 'ro';
+    const cpu = 'bo';
+    const expected = 'win';
+    const result = checkResults(player, cpu);
+    assert.equal(result, expected);
+});
 
-test('how to win', function(assert) {
-const 
-
-}
+test('tie', assert => {
+    const player = 'sham';
+    const cpu = 'sham';
+    const expected = 'draw';
+    const result = checkResults(player, cpu);
+    assert.equal(result, expected);
+});

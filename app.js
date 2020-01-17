@@ -16,9 +16,9 @@ playButton.addEventListener('click', () => {
     console.log('click')
     const player = document.querySelector('input:checked').value;
     const cpu = getRandomThrow();
-    console.log('cpu', player);
-    console.log('player', cpu);
-    console.log('function', checkResults(player, cpu));
+    // console.log('cpu', player);
+    // console.log('player', cpu);
+    // console.log('function', checkResults(player, cpu));
     if (checkResults(player, cpu) === 'lose') {
         losses++;
         displayPlayer.textContent = 'You lost';

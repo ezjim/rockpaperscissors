@@ -13,6 +13,7 @@
     </header>
     <main>
         <section id="Images">
+            <!-- tried to class images so i could edit them in the css but i gave up. -->
           <!--button for rock  -->
             <label>
             <input type='radio' name='Pick' value='ro' checked>
@@ -33,7 +34,9 @@
         <section>
             <!-- this is the go button -->
             <button id='play'>Play!</button>
-            <button id='reset'>Reset!</button>
+            <!-- <button id='reset'>Reset!</button> -->
+            <!-- this button below resets the field you you have blank results-->
+            <button onClick="window.location.reload();">Refresh!</button>
          </section>
          <section id='scoreboard'>
             <p>
@@ -46,11 +49,6 @@
             </p>
             <p id="you-win"></p>
             
-             <!-- <p id='results' class='hidden'> <span id='you-win'>win!</span></p>
-             <p id='winsTotal'>Wins: <span id='wins'>0</span></p>
-             <p Losses: <span id='losses'>0</span></p>
-             <p id='draws'>0</span></p>
-             > -->
          </section>
     </main>
 

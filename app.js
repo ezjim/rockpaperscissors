@@ -1,6 +1,6 @@
 import getRandomThrow from './rps.js';
 import checkResults from './checkResults.js';
-
+// ^above is the random number generator and how it compares
 const playButton = document.getElementById('play');
 const totalWins = document.getElementById('winsTotal');
 const totalLosses = document.getElementById('lossesTotal');
@@ -11,7 +11,7 @@ const results = document.getElementById('results');
 let wins = 0;
 let losses = 0;
 let draws = 0;
-
+// Button and event listener
 playButton.addEventListener('click', () => { 
     console.log('click')
     const player = document.querySelector('input:checked').value;

@@ -16,7 +16,7 @@ background: linear-gradient(135deg, #A40C0C 0%, #CBCBCB 53%, #425375 100%);
 }
 #scoreboard{
     font-family: Impact, Charcoal, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 2px;
     word-spacing: 0.8px;
     color: #000000;
@@ -25,4 +25,7 @@ background: linear-gradient(135deg, #A40C0C 0%, #CBCBCB 53%, #425375 100%);
     font-style: normal;
     font-variant: normal;
     text-transform: none;
+}
+#you-win{
+    font-size: xxx-large;
 }

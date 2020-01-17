@@ -9,6 +9,10 @@
 *{
     text-align: center;
     border-radius: 50%;
+    background: #A40C0C;
+background: -moz-linear-gradient(-45deg, #A40C0C 0%, #CBCBCB 53%, #425375 100%);
+background: -webkit-linear-gradient(-45deg, #A40C0C 0%, #CBCBCB 53%, #425375 100%);
+background: linear-gradient(135deg, #A40C0C 0%, #CBCBCB 53%, #425375 100%);
 }
 #scoreboard{
     font-family: Impact, Charcoal, sans-serif;

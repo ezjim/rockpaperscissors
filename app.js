@@ -6,7 +6,7 @@ const totalWins = document.getElementById('winsTotal');
 const totalLosses = document.getElementById('lossesTotal');
 const totalDraws = document.getElementById('drawsTotal');
 const displayPlayer = document.getElementById('you-win');
-const results = document.getElementById('results');
+// const results = document.getElementById('results');
 
 let wins = 0;
 let losses = 0;
@@ -16,9 +16,9 @@ playButton.addEventListener('click', () => {
     console.log('click')
     const player = document.querySelector('input:checked').value;
     const cpu = getRandomThrow();
-    console.log('cpu', player);
-    console.log('player', cpu);
-    console.log('function', checkResults(player, cpu));
+    // console.log('cpu', player);
+    // console.log('player', cpu);
+    // console.log('function', checkResults(player, cpu));
     if (checkResults(player, cpu) === 'lose') {
         losses++;
         displayPlayer.textContent = 'You lost';

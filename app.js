@@ -6,7 +6,7 @@ const totalWins = document.getElementById('winsTotal');
 const totalLosses = document.getElementById('lossesTotal');
 const totalDraws = document.getElementById('drawsTotal');
 const displayPlayer = document.getElementById('you-win');
-const results = document.getElementById('results');
+// const results = document.getElementById('results');
 
 let wins = 0;
 let losses = 0;

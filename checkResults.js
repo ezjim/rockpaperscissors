@@ -5,4 +5,4 @@ export default function checkResults(player, cpu) {
     else if (cpu === 'ro' && player === 'sham') return 'win';
     else return 'lose';
 }
-    
+// check results functon
